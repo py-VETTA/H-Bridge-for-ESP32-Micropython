@@ -130,6 +130,7 @@ class Hbridge:
         self.min_speed = min(max(min_speed_value, 0), 1023)
 
 
+    
 #
 # - Faz a converção da velocidade em porcentagem para escala 10 bits utilizando o valor mínimo de velocidade.
 #
